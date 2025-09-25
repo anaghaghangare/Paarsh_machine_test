@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar">
+  <div class="logo"><a href="index.html">MySocial</a></div>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="messages.html">Messages</a></li>
+    <li><a href="notifications.html">Notifications</a></li>
+    <li class="mobile-only"><button class="logout-btn">Logout</button></li>
+  </ul>
+
+  <div class="search">
+    <input type="text" id="searchBar" placeholder="Search...">
+  </div>
+  
+  <button class="logout-btn desktop-only">Logout</button>
+</nav>
+
+
+    <div class="profile-container">
+
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <div class="cover-photo"></div>
+            <div class="profile-info">
+                <img src="men.jpg" alt="Profile Picture" class="profile-pic">
+                <h2 class="username">John Doe</h2>
+                <p class="bio"> Traveler</p>
+                <button class="edit-btn">Edit Profile</button>
+            </div>
+        </div>
+
+        <!-- Friends List -->
+        <div class="friends-section">
+            <h3>Friends</h3>
+            <div class="friends-list">
+                <div class="friend">
+                    <img src="b1.jpeg" alt="Friend 1">
+                    <p>Aryan</p>
+                </div>
+                <div class="friend">
+                    <img src="g2.jpeg" alt="Friend 2">
+                    <p>Srushti</p>
+                </div>
+                <div class="friend">
+                    <img src="g3.jpeg" alt="Friend 3">
+                    <p>Ruchi</p>
+                </div>
+                <div class="friend">
+                    <img src="g1.jpeg" alt="Friend 4">
+                    <p>Prachi</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>

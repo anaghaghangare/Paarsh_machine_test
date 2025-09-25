@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySocial - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">Connect</a></div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="messages.html">Messages</a></li>
+      <li><a href="notifications.html">Notifications</a></li>
+      <li class="mobile-only"><button class="logout-btn">Logout</button></li>
+    </ul>
+
+    <div class="search desktop-only">
+      <input type="text" placeholder="Search...">
+    </div>
+
+    
+  </nav>
+
+  <!-- Banner/Slider -->
+  <section class="banner">
+    <div class="slides">
+      <div class="slide">🌟 Welcome to MySocial</div>
+      <div class="slide">🔥 Stay Connected with Friends</div>
+      <div class="slide">💬 Share Your Thoughts & Stories</div>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <!-- User Feed -->
+    <section class="feed">
+      <div class="create-post">
+        <textarea placeholder="What's on your mind?"></textarea>
+        <button class="post-btn">Post</button>
+      </div>
+
+      <!-- Sample Posts -->
+      <div class="post">
+        <h3>Ruchi</h3>
+        <p>Just finished a great workout! 💪</p>
+        <img src="workout.jpg" alt="Post Image" style="width: 280px;">
+        <div class="actions">
+          <button>👍 Like</button>
+          <button>💬 Comment</button>
+          <button>↗️ Share</button>
+        </div>
+      </div>
+
+      <div class="post">
+        <h3>Srushti</h3>
+        <p>Beautiful sunset today 🌅</p>
+        <img src="images.jpeg" alt="Post Image">
+        <div class="actions">
+          <button>👍 Like</button>
+          <button>💬 Comment</button>
+          <button>↗️ Share</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Topics -->
+    <aside class="trending">
+      <h3>🔥 Trending Topics</h3>
+      <ul>
+        <li>#FitnessGoals</li>
+        <li>#TechUpdates</li>
+        <li>#TravelDiaries</li>
+        <li>#FoodLovers</li>
+        <li>#DailyMotivation</li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="social-icons">
+      <a href="#">🌐</a>
+      <a href="#">📘</a>
+      <a href="#">🐦</a>
+      <a href="#">📸</a>
+    </div>
+  </footer>
+
+</body>
+</html>
